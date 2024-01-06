@@ -290,11 +290,12 @@ opacity:70%;
 
 body{
 max-height:1500px;
-
+width:auto;
 }
 .boddy{
 position:relative;
 left:0px;
+width:50%;
 }
 .first-header{
 position:absolute;
@@ -303,14 +304,14 @@ font-weight:800;
 font-size:50px;
 }
 .image-box{
-transform:scale(0.5);
-transform-origin:center;
 position:relative;
-left:100px;
-top:-150px;
-width:20px;
+left:-70px;
+top:-160px;
+width:auto;
+height:auto;
 margin:0;
 padding:0;
+
 }
 .in1{
 margin-left:-220px;
@@ -346,7 +347,7 @@ background-color:black;
 margin:5px 0;
 transition:0.4s;
 position:relative;
-left:70px;
+left:180px;
 }
 .burger-menu.active .bar:nth-child(2){
 opacity:0;
@@ -387,6 +388,7 @@ left:-69px;
 position:relative;
 left:-15px;
 top:-270px;
+height:550px;
 }
 .Retro{
 position:absolute;
@@ -395,7 +397,7 @@ top:660px;
 .num1{
 position:absolute;
 top:760px;
-left:102px;
+left:98px;
 }
 .title1{
 position:absolute;
@@ -424,11 +426,11 @@ z-index:2;
 }
 .title2{
 position:absolute;
-top:1630px;
+top:1625px;
 display:inline-block;
 width:200px;
 left:113px;
-font-size:14px;
+font-size:17px;
 font-weight:900;
 }
 .needs{
@@ -448,17 +450,17 @@ left:-288px;
 }
 .num3{
 position:absolute;
-top:1740px;
+top:1730px;
 left:112px;
 z-index:2;
 }
 .title3{
 position:absolute;
-top:1790px;
+top:1780px;
 display:inline-block;
 width:200px;
 left:113px;
-font-size:14px;
+font-size:18px;
 font-weight:900;
 }
 .fresh{
